@@ -10,5 +10,6 @@ Q.load(["starBackground.png"], function () {
     Q.gameLoop(function (dt) {
         Q.clear();
         background.render(Q.ctx);
+        alert("test - delete me")
     });
 });
