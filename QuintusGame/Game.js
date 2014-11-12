@@ -11,5 +11,6 @@ Q.load(["starBackground.png"], function () {
         Q.clear();
         background.render(Q.ctx);
         alert("test - delete me")
+        alert("test -  yes delete me")
     });
 });
