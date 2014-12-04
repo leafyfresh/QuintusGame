@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="cheat.png" />
     <Content Include="default.html" />
     <Content Include="Game.js" />
     <Content Include="images\cheet.png" />
