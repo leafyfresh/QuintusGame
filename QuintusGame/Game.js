@@ -31,8 +31,9 @@ Q.load(["starBackground.png"], function () {
     debugger;
     penguin.render(Q.ctx);
     Q.gameLoop(function (dt) {
-       // Q.clear();
-        //background.render(Q.ctx);
-        
+        Q.clear();
+        background.render(Q.ctx);
+        alert("test - delete me")
+        alert("test -  yes delete me")
     });
 });
