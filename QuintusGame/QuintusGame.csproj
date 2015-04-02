@@ -62,12 +62,15 @@
     <Content Include="images\4cheets.png" />
     <Content Include="images\cheet.png" />
     <Content Include="images\cheetSmile.png" />
+    <Content Include="images\redcheet.png" />
     <Content Include="images\starBackground.png" />
     <Content Include="images\starTile.png" />
     <Content Include="quintus-all.js" />
     <Content Include="data\4cheets.json" />
     <None Include="Scripts\_references.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
