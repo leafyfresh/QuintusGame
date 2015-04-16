@@ -38,7 +38,7 @@ Q.load(["starBackground.png", "cheet.png","4cheets.png", "4cheets.json"], functi
         player.update(dt);
         player.render(Q.ctx);
         if (Q.inputs['left']){
-            console.log("left!");
+            console.log("left~");
             player.p.x--;
         }
         if (Q.inputs['right']){
